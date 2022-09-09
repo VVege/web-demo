@@ -1,0 +1,21 @@
+{
+    "name": "web-demo",
+    "private": true,
+    "version": "0.0.1",
+    "scripts": {
+       "serve": "yarn workspace home run serve"
+      
+    },
+    "dependencies": {
+      "vue": "^3.2.25",
+      "vue-router": "^4.0.12"
+    },
+    "devDependencies": {
+      "typescript": "^4.5.4",
+      "vite": "^2.8.4"
+    },
+    "workspaces": [
+      "packages/*"
+    ]
+  }
+  
