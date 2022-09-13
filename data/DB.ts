@@ -1,12 +1,11 @@
-class DB {
+export class DB {
     items: DBItem[] = [];
 }
 
-class DBItem {
+export class DBItem {
     title = '';
     thumbnail = '';
     time = '';
     mdPath = '';
 }
 
-const db = new DB();
