@@ -7,8 +7,8 @@
 </template>
 
 <script lang="ts" setup>
-    import HomeContent from './HomeContent.vue';
-    import Menu from './Menu.vue';
+    import HomeContent from '../Home/HomeContent.vue';
+    import Menu from '../Home/Menu.vue';
 
 </script>
 

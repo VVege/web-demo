@@ -22,8 +22,8 @@
   
   <script lang="ts" setup>
   import { ref } from 'vue'
-  import db from '../data/db.json';
-  import { DB, DBItem } from "../data/DB";
+  import db from '../../data/db.json';
+  import { DB, DBItem } from "../../data/DB";
 
   const writings = ref(db);
 
